@@ -250,14 +250,14 @@ h1 {
   padding: 0 var(--layout-x-padding);
 }
 
-.dabric-page {
+.site-page {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   padding: 0 var(--layout-x-padding);
 }
 
-.dabric-bar {
+.site-bar {
   position: fixed;
   inset: 0 0 auto;
   z-index: 50;
@@ -268,7 +268,7 @@ h1 {
   background: rgba(7, 6, 4, 0.94);
 }
 
-.dabric-bar-inner {
+.site-bar-inner {
   display: flex;
   width: 100%;
   max-width: var(--content-width);
@@ -276,7 +276,7 @@ h1 {
   border-bottom: calc(var(--px-spacing) * 2) solid var(--c-out);
 }
 
-.dabric-logo {
+.site-logo {
   display: inline-flex;
   align-items: center;
   gap: calc(var(--px-spacing) * 2);
@@ -286,7 +286,7 @@ h1 {
   line-height: 1;
 }
 
-.dabric-logo::before,
+.site-logo::before,
 .logo::before {
   content: "";
   width: calc(var(--rem-spacing) * 4.5);
@@ -295,7 +295,7 @@ h1 {
   flex: 0 0 auto;
 }
 
-.dabric-main {
+.site-main {
   flex: 1 0 auto;
   width: 100%;
   max-width: var(--content-width);
@@ -303,13 +303,13 @@ h1 {
   padding: calc(var(--navigation-height, calc(var(--rem-spacing) * 12)) + calc(var(--rem-spacing) * 3)) 0 calc(var(--rem-spacing) * 10);
 }
 
-.dabric-main.text-content,
-.dabric-main .text-content {
+.site-main.text-content,
+.site-main .text-content {
   max-width: var(--content-width);
 }
 
-.dabric-main .text-content h1,
-.dabric-main.text-content h1 {
+.site-main .text-content h1,
+.site-main.text-content h1 {
   display: block;
   margin: calc(var(--rem-spacing) * 2) 0 calc(var(--rem-spacing) * 10);
   font-family: var(--font-brand);
@@ -318,8 +318,8 @@ h1 {
   line-height: 1.15;
 }
 
-.dabric-main .text-content h2,
-.dabric-main.text-content h2 {
+.site-main .text-content h2,
+.site-main.text-content h2 {
   margin: calc(var(--rem-spacing) * 8) 0 calc(var(--rem-spacing) * 4);
   border-bottom: calc(var(--px-spacing) * 1) solid var(--c-out);
   font-family: var(--font-brand);
@@ -327,8 +327,8 @@ h1 {
   font-weight: 700;
 }
 
-.dabric-main .text-content p,
-.dabric-main.text-content p {
+.site-main .text-content p,
+.site-main.text-content p {
   color: var(--c-on-sur);
   font-size: calc(var(--rem-spacing) * 4);
   line-height: 1.5;
@@ -543,7 +543,7 @@ h1 {
   display: inline-block;
 }
 
-.dabric-footer {
+.site-footer-block {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -555,17 +555,17 @@ h1 {
   text-align: left;
 }
 
-.dabric-footer p {
+.site-footer-block p {
   margin: 0;
 }
 
-.dabric-footer div:last-child {
+.site-footer-block div:last-child {
   display: flex;
   justify-content: flex-end;
   gap: calc(var(--px-spacing) * 4);
 }
 
-.dabric-footer a {
+.site-footer-block a {
   text-decoration: underline;
 }
 

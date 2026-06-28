@@ -98,4 +98,4 @@ The repository includes the current static site, generated image assets, older b
 
 ## Status
 
-Mooruu is still a prototype. The current site defines the tone, structure, and story. Future work can replace placeholder artwork, add real project links, connect a live repository workflow, and expand the character's memory and room systems.
+Mooruu is still a prototype. The current site defines the tone, structure, and story. Future work can add more finished artwork, connect more public project links, wire in a live repository workflow, and expand the character's memory and room systems.
