@@ -107,10 +107,10 @@ h1 {
 }
 
 .pixel-mark {
-  width: 86px;
+  width: 54px;
   height: 70px;
   margin-bottom: 2px;
-  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
+  background: url("/tu/mooruu-logo-transparent-orange.png") center / contain no-repeat;
   flex: 0 0 auto;
 }
 
@@ -289,9 +289,9 @@ h1 {
 .dabric-logo::before,
 .logo::before {
   content: "";
-  width: calc(var(--rem-spacing) * 6);
+  width: calc(var(--rem-spacing) * 4.5);
   height: calc(var(--rem-spacing) * 5);
-  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
+  background: url("/tu/mooruu-logo-transparent-orange.png") center / contain no-repeat;
   flex: 0 0 auto;
 }
 
@@ -802,7 +802,7 @@ h1 {
   height: 126px;
   translate: -50% 0;
   opacity: 0.45;
-  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
+  background: url("/tu/mooruu-logo-transparent-orange.png") center / contain no-repeat;
   filter: drop-shadow(0 0 24px rgba(255, 122, 26, 0.55));
 }
 

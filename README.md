@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="tu/26dd8e1da95181e3bf566324c7beaab6.png" alt="Mooruu character logo" width="120" />
+  <img src="tu/mooruu-logo-transparent-orange.png" alt="Mooruu character logo" width="96" />
 </p>
 
 <h1 align="center">Mooruu</h1>
