@@ -7,14 +7,16 @@
   --font-brand: "Chakra Petch", system-ui, sans-serif;
   --content-width: min(954px, calc(100vw - calc(var(--px-spacing) * 32)));
   --layout-x-padding: calc(var(--px-spacing) * 16);
-  --c-sur: hsl(0, 0%, 84%);
-  --c-on-sur: hsl(0, 0%, 5%);
-  --c-on-sur-var: hsl(0, 0%, 22%);
-  --c-out: var(--c-on-sur);
-  --c-inv-sur: var(--c-on-sur);
-  --c-on-inv-sur: var(--c-sur);
+  --c-sur: #070604;
+  --c-on-sur: #fff2df;
+  --c-on-sur-var: #ffb06a;
+  --c-out: #ff7a1a;
+  --c-inv-sur: #ff7a1a;
+  --c-on-inv-sur: #100804;
+  --c-panel: #130c07;
+  --c-panel-soft: #211109;
   --ease-smooth: cubic-bezier(0.78, 0, 0.22, 1);
-  color-scheme: light;
+  color-scheme: dark;
   font-size: var(--font-size);
 }
 
@@ -34,6 +36,12 @@ body {
   font-family: var(--font-sans);
   font-size: calc(var(--rem-spacing) * 4);
   overflow-wrap: break-word;
+}
+
+body {
+  background:
+    radial-gradient(circle at 22% 0%, rgba(255, 122, 26, 0.16), transparent 34vw),
+    linear-gradient(#070604, #070604);
 }
 
 body::selection {
@@ -102,7 +110,7 @@ h1 {
   width: 86px;
   height: 70px;
   margin-bottom: 2px;
-  background: url("/tu/keepsake-logo-transparent.png?v=1") center / contain no-repeat;
+  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
   flex: 0 0 auto;
 }
 
@@ -126,7 +134,7 @@ h1 {
 .terminal-card,
 .post-list li {
   border: calc(var(--px-spacing) * 1) solid var(--c-out);
-  background: var(--c-sur);
+  background: var(--c-panel);
 }
 
 .small-link {
@@ -257,7 +265,7 @@ h1 {
   height: var(--navigation-height, calc(var(--rem-spacing) * 12));
   justify-content: center;
   padding: 0 var(--layout-x-padding);
-  background: var(--c-sur);
+  background: rgba(7, 6, 4, 0.94);
 }
 
 .dabric-bar-inner {
@@ -283,7 +291,7 @@ h1 {
   content: "";
   width: calc(var(--rem-spacing) * 6);
   height: calc(var(--rem-spacing) * 5);
-  background: url("/tu/keepsake-logo-transparent.png?v=1") center / contain no-repeat;
+  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
   flex: 0 0 auto;
 }
 
@@ -346,7 +354,7 @@ h1 {
   align-items: center;
   border: calc(var(--px-spacing) * 1) solid var(--c-out);
   padding: 16px 18px;
-  background: var(--c-sur);
+  background: var(--c-panel);
   color: var(--c-on-sur);
 }
 
@@ -373,7 +381,7 @@ h1 {
   flex: 0 0 auto;
   overflow: hidden;
   border: calc(var(--px-spacing) * 1) solid var(--c-on-sur-var);
-  background: #ddd;
+  background: var(--c-panel-soft);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -762,7 +770,7 @@ h1 {
 
 .script-shop {
   background: #000;
-  color: #111;
+  color: var(--c-on-sur);
   overflow-x: hidden;
 }
 
@@ -771,7 +779,7 @@ h1 {
   display: grid;
   grid-template-columns: minmax(460px, 50vw) minmax(0, 1fr);
   align-items: start;
-  background: #edf1e6;
+  background: #100804;
   animation: script-enter 0.48s var(--ease-smooth) both;
 }
 
@@ -793,9 +801,9 @@ h1 {
   width: 126px;
   height: 126px;
   translate: -50% 0;
-  opacity: 0.24;
-  background: linear-gradient(#edf1e6 0 0) center / 126px 126px no-repeat;
-  filter: blur(18px);
+  opacity: 0.45;
+  background: url("/tu/26dd8e1da95181e3bf566324c7beaab6.png") center / contain no-repeat;
+  filter: drop-shadow(0 0 24px rgba(255, 122, 26, 0.55));
 }
 
 .dialog-section {
@@ -805,9 +813,9 @@ h1 {
 
 .dialog-box,
 .dialog-options a {
-  border: 6px solid #386e38;
-  background: #edf1e6;
-  color: #111;
+  border: 6px solid #ff7a1a;
+  background: #100804;
+  color: var(--c-on-sur);
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -831,8 +839,8 @@ h1 {
   min-height: 82px;
   place-items: center;
   border-top: 0;
-  background: #386e38;
-  color: #edf1e6;
+  background: #ff7a1a;
+  color: #100804;
   font-size: 34px;
   text-align: center;
 }
@@ -843,8 +851,8 @@ h1 {
 
 .dialog-options a:hover,
 .dialog-options a:focus-visible {
-  background: #edf8f4;
-  color: #386e38;
+  background: #fff2df;
+  color: #ff7a1a;
 }
 
 .script-gradient {
@@ -868,7 +876,7 @@ h1 {
   width: 100%;
   margin: 0 auto;
   padding: 48px 24px 96px;
-  background: #edf1e6;
+  background: #100804;
 }
 
 .script-heading {
@@ -884,12 +892,13 @@ h1 {
   font-size: 32px;
   font-weight: 700;
   line-height: 1;
+  color: var(--c-on-sur);
 }
 
 .script-heading span {
   height: 4px;
   flex: 1;
-  background: #dce8e1;
+  background: #ff7a1a;
 }
 
 .script-grid {
@@ -907,7 +916,7 @@ h1 {
 .script-option {
   display: block;
   min-height: 0;
-  color: #111;
+  color: var(--c-on-sur);
   background: transparent;
   text-decoration: none;
   transition: transform 0.18s var(--ease-smooth), opacity 0.18s var(--ease-smooth);
@@ -915,7 +924,7 @@ h1 {
 
 .script-option:hover,
 .script-option:focus-visible {
-  color: #111;
+  color: var(--c-on-sur);
   transform: translateY(calc(var(--px-spacing) * -1));
 }
 
@@ -938,7 +947,7 @@ h1 {
 
 .script-option em {
   margin-top: 8px;
-  color: #111;
+  color: var(--c-on-sur-var);
   font-family: "Courier New", monospace;
   font-size: 31px;
   line-height: 1.32;
@@ -946,7 +955,7 @@ h1 {
 
 .script-option:hover em,
 .script-option:focus-visible em {
-  color: #111;
+  color: var(--c-on-sur);
 }
 
 .script-image {
@@ -968,8 +977,8 @@ h1 {
 }
 
 .project-visual {
-  border: 0;
-  background: #dfe8d7;
+  border: calc(var(--px-spacing) * 1) solid var(--c-out);
+  background: #211109;
   filter: saturate(0.92) contrast(1.03);
   transition: filter 0.18s var(--ease-smooth), transform 0.18s var(--ease-smooth);
 }
@@ -984,7 +993,7 @@ h1 {
   position: relative;
   overflow: hidden;
   border: 0;
-  background: #396f39;
+  background: #ff7a1a;
 }
 
 .concept-image::before,
@@ -996,25 +1005,25 @@ h1 {
 
 .concept-room {
   background:
-    linear-gradient(#244724 0 0) 0 78% / 100% 22% no-repeat,
-    linear-gradient(90deg, transparent 0 46%, #edf1e6 46% 54%, transparent 54%) 50% 48% / 38% 40% no-repeat,
-    linear-gradient(#edf1e6 0 0) 50% 60% / 62% 7px no-repeat,
-    #396f39;
+    linear-gradient(#100804 0 0) 0 78% / 100% 22% no-repeat,
+    linear-gradient(90deg, transparent 0 46%, #100804 46% 54%, transparent 54%) 50% 48% / 38% 40% no-repeat,
+    linear-gradient(#100804 0 0) 50% 60% / 62% 7px no-repeat,
+    #ff7a1a;
 }
 
 .concept-room::before {
   inset: 18% 22% 28%;
-  border: 5px solid #edf1e6;
+  border: 5px solid #100804;
   background:
-    radial-gradient(circle at 34% 42%, #edf1e6 0 8px, transparent 9px),
-    radial-gradient(circle at 66% 42%, #edf1e6 0 8px, transparent 9px),
-    linear-gradient(#edf1e6 0 0) 50% 66% / 46px 6px no-repeat;
+    radial-gradient(circle at 34% 42%, #100804 0 8px, transparent 9px),
+    radial-gradient(circle at 66% 42%, #100804 0 8px, transparent 9px),
+    linear-gradient(#100804 0 0) 50% 66% / 46px 6px no-repeat;
 }
 
 .concept-soul {
   background:
-    radial-gradient(circle at 50% 50%, #edf1e6 0 28%, transparent 29%),
-    repeating-linear-gradient(90deg, #396f39 0 18px, #315f31 18px 36px);
+    radial-gradient(circle at 50% 50%, #100804 0 28%, transparent 29%),
+    repeating-linear-gradient(90deg, #ff7a1a 0 18px, #a13c00 18px 36px);
 }
 
 .concept-soul::before {
@@ -1025,12 +1034,12 @@ h1 {
     radial-gradient(circle at 36% 42%, #111 0 5px, transparent 6px),
     radial-gradient(circle at 64% 42%, #111 0 5px, transparent 6px),
     linear-gradient(#111 0 0) 50% 66% / 34px 5px no-repeat,
-    #edf1e6;
+    #100804;
 }
 
 .concept-soul::after {
   inset: 13% 18%;
-  border: 4px dashed #edf1e6;
+  border: 4px dashed #100804;
 }
 
 .concept-identity {
@@ -1044,15 +1053,15 @@ h1 {
     linear-gradient(#111 0 0) 24px 28px / 42% 5px no-repeat,
     linear-gradient(#111 0 0) 24px 52px / 62% 5px no-repeat,
     linear-gradient(#111 0 0) 24px 76px / 52% 5px no-repeat,
-    radial-gradient(circle at 82% 24%, #396f39 0 20px, transparent 21px),
-    #edf1e6;
+    radial-gradient(circle at 82% 24%, #ff7a1a 0 20px, transparent 21px),
+    #100804;
 }
 
 .concept-memory {
   background:
     linear-gradient(#111 0 0) 15% 50% / 72% 6px no-repeat,
-    linear-gradient(90deg, #396f39 0 22%, transparent 22% 78%, #396f39 78%) 50% 50% / 100% 100% no-repeat,
-    #edf1e6;
+    linear-gradient(90deg, #ff7a1a 0 22%, transparent 22% 78%, #ff7a1a 78%) 50% 50% / 100% 100% no-repeat,
+    #100804;
 }
 
 .concept-memory::before {
@@ -1062,7 +1071,7 @@ h1 {
   left: 18%;
   border: 5px solid #111;
   border-radius: 50%;
-  background: #edf1e6;
+  background: #100804;
   transform: translateY(-50%);
 }
 
@@ -1073,26 +1082,26 @@ h1 {
   right: 18%;
   border: 5px solid #111;
   border-radius: 50%;
-  background: #edf1e6;
+  background: #100804;
   transform: translateY(-50%);
 }
 
 .concept-vote {
-  background: #edf1e6;
+  background: #100804;
 }
 
 .concept-vote::before {
   inset: 18% 23%;
   border: 5px solid #111;
   background:
-    linear-gradient(135deg, transparent 40%, #396f39 41% 56%, transparent 57%) 50% 34% / 90px 70px no-repeat,
+    linear-gradient(135deg, transparent 40%, #ff7a1a 41% 56%, transparent 57%) 50% 34% / 90px 70px no-repeat,
     linear-gradient(#111 0 0) 50% 70% / 52% 5px no-repeat;
 }
 
 .concept-model {
   background:
     linear-gradient(#111 0 0) 50% 50% / 76% 6px no-repeat,
-    #396f39;
+    #ff7a1a;
 }
 
 .concept-model::before,
@@ -1104,7 +1113,7 @@ h1 {
   background:
     radial-gradient(circle at 36% 42%, #111 0 5px, transparent 6px),
     radial-gradient(circle at 64% 42%, #111 0 5px, transparent 6px),
-    #edf1e6;
+    #100804;
   transform: translateY(-50%);
 }
 
@@ -1112,7 +1121,7 @@ h1 {
 .concept-model::after { right: 14%; }
 
 .concept-token {
-  background: repeating-linear-gradient(45deg, #396f39 0 18px, #315f31 18px 36px);
+  background: repeating-linear-gradient(45deg, #ff7a1a 0 18px, #a13c00 18px 36px);
 }
 
 .concept-token::before {
@@ -1124,7 +1133,7 @@ h1 {
   place-items: center;
   border: 6px solid #111;
   border-radius: 50%;
-  background: #edf1e6;
+  background: #100804;
   color: #111;
   content: "$";
   font-family: "Courier New", monospace;
@@ -1141,7 +1150,7 @@ h1 {
   inset: 24% 18% 18%;
   background:
     linear-gradient(135deg, transparent 0 49%, #111 50% 55%, transparent 56%) 50% -22px / 150px 86px no-repeat,
-    linear-gradient(#396f39 0 0) 50% 52% / 132px 80px no-repeat;
+    linear-gradient(#ff7a1a 0 0) 50% 52% / 132px 80px no-repeat;
 }
 
 .concept-house::after {
@@ -1149,14 +1158,14 @@ h1 {
   height: 54px;
   left: 50%;
   bottom: 18%;
-  background: #edf1e6;
+  background: #100804;
   transform: translateX(-50%);
 }
 
 .script-catalog footer {
   width: auto;
   padding: 16px 0 0;
-  color: #111;
+  color: var(--c-on-sur-var);
   text-align: center;
 }
 

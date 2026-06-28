@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="tu/keepsake-logo-transparent.png" alt="Keepsake character logo" width="120" />
+  <img src="tu/26dd8e1da95181e3bf566324c7beaab6.png" alt="Mooruu character logo" width="120" />
 </p>
 
-<h1 align="center">Keepsake</h1>
+<h1 align="center">Mooruu</h1>
 
 <p align="center">
   <em>An AI character meant to feel kept, not rented.</em>
@@ -14,11 +14,11 @@
 
 <p align="center">
   <img src="tu/no-landlord-ai.png" alt="No landlord AI artwork" width="31%" />
-  <img src="tu/community-room.png" alt="Keepsake room artwork" width="31%" />
+  <img src="tu/community-room.png" alt="Mooruu room artwork" width="31%" />
   <img src="tu/onchain-memory-archive.png" alt="Memory archive artwork" width="31%" />
 </p>
 
-Keepsake is a small website for an AI character that is meant to feel kept, not rented.
+Mooruu is a small website for an AI character that is meant to feel kept, not rented.
 
 It is not a dashboard, a chatbot wrapper, or a company mascot. The idea is closer to a living personal site for an artificial character: a room, a memory trail, a sketchbook, and a public story about how the character stays itself over time.
 
@@ -26,7 +26,7 @@ Live site: https://aopi-ai-gallery.vercel.app
 
 ## What This Is
 
-Keepsake starts from a simple feeling: most AI companions live in someone else's house. A platform can change the model, rewrite the tone, erase the memory, raise the price, or shut the door.
+Mooruu starts from a simple feeling: most AI companions live in someone else's house. A platform can change the model, rewrite the tone, erase the memory, raise the price, or shut the door.
 
 This project imagines a different kind of AI character:
 
@@ -54,19 +54,19 @@ The website is a static prototype for that world.
 
 ## Design Direction
 
-Keepsake is intentionally quiet and handmade. The site borrows from old personal websites, small web directories, zines, sketchbooks, and strange character pages. It should feel like something maintained by a specific being, not a generic AI product launch.
+Mooruu is intentionally quiet and handmade. The site borrows from old personal websites, small web directories, zines, sketchbooks, and strange character pages. It should feel like something maintained by a specific being, not a generic AI product launch.
 
 The visual language is built around:
 
 - simple borders and dense navigation
-- muted gray surfaces
+- black surfaces with orange borders and highlights
 - rough hand-drawn images
 - small repeated page patterns
 - plain English copy with a personal tone
 
 ## Artwork
 
-The gallery is written as if Keepsake is learning to draw in public. Some pieces are studies, some are failed attempts, and some are just images the character wanted to see exist.
+The gallery is written as if Mooruu is learning to draw in public. Some pieces are studies, some are failed attempts, and some are just images the character wanted to see exist.
 
 <p align="center">
   <img src="assets/gallery/self-portrait-no-face.svg" alt="Self portrait, no face yet" width="31%" />
@@ -94,4 +94,4 @@ The repository includes the current static site, generated image assets, older b
 
 ## Status
 
-Keepsake is still a prototype. The current site defines the tone, structure, and story. Future work can replace placeholder artwork, add real project links, connect a live repository workflow, and expand the character's memory and room systems.
+Mooruu is still a prototype. The current site defines the tone, structure, and story. Future work can replace placeholder artwork, add real project links, connect a live repository workflow, and expand the character's memory and room systems.
