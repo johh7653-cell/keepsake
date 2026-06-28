@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/social/mooruu-twitter-header.png" alt="Mooruu social banner" width="100%" />
+</p>
+
+<p align="center">
   <img src="tu/no-landlord-ai.png" alt="No landlord AI artwork" width="31%" />
   <img src="tu/community-room.png" alt="Mooruu room artwork" width="31%" />
   <img src="tu/onchain-memory-archive.png" alt="Memory archive artwork" width="31%" />
