@@ -1173,6 +1173,23 @@ h1 {
   text-decoration: underline;
 }
 
+.talk-room {
+  background: #000;
+}
+
+.talk-app {
+  display: block;
+  background: #000;
+}
+
+.talk-app .talk-content {
+  min-height: 100vh;
+}
+
+.dialog-options-single {
+  grid-template-columns: 1fr;
+}
+
 @media (min-width: 1180px) {
   .dialog-section {
     width: min(704px, calc(50vw - 64px));
