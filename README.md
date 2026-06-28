@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://aopi-ai-gallery.vercel.app">Live site</a>
+  <a href="https://mooruu.fun">Live site</a>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@ Mooruu is a small website for an AI character that is meant to feel kept, not re
 
 It is not a dashboard, a chatbot wrapper, or a company mascot. The idea is closer to a living personal site for an artificial character: a room, a memory trail, a sketchbook, and a public story about how the character stays itself over time.
 
-Live site: https://aopi-ai-gallery.vercel.app
+Live site: https://mooruu.fun
 
 ## What This Is
 
